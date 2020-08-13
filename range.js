@@ -1,5 +1,5 @@
 //Get Range of List
- range = (start, end, step)=> {
+export const range = (start, end, step)=> {
     let arr = [],
       len = 0;
   

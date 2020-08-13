@@ -1,5 +1,5 @@
 //get Pagination
-getPagination = (currentPage, itemsPerPage, list)=> {
+export const getPagination = (currentPage, itemsPerPage, list)=> {
     let indexOfLastTodo = currentPage * itemsPerPage;
     let indexOfFirstTodo = indexOfLastTodo - itemsPerPage;
     let lists = list.slice(indexOfFirstTodo, indexOfLastTodo);

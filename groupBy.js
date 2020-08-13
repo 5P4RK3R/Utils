@@ -1,5 +1,5 @@
 //GroupBy function
- groupBy(objectArray, property) => {
+ groupBy = (objectArray, property) => {
     return  objectArray.reduce(function(acc, obj) {
       var key = obj[property];
       if (!acc[key]) {

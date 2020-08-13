@@ -1,5 +1,5 @@
 //Get Range of List
- range(start, end, step)=> {
+ range = (start, end, step)=> {
     let arr = [],
       len = 0;
   
